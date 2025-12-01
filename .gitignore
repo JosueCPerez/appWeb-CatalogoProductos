@@ -1,0 +1,14 @@
+# NODE
+node_modules/
+npm-debug.log
+
+# ENVS
+*.env
+.env.local
+.env.*.local
+
+# DOCKER VOLUMES
+mongo-data/
+
+# BUILD
+dist/
