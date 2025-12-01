@@ -56,12 +56,12 @@ npm start
 El gateway estará disponible en:
 
 ```
-http://localhost:4000/api/
+http://localhost:4000/
 ```
 
 Ejemplo:
 ```
-GET http://localhost:4000/api/catalogs
+GET http://localhost:4000/catalogs
 ```
 
 ---
@@ -86,7 +86,7 @@ Respuesta esperada:
 ## Notas
 
 - El frontend NO llamará nunca al backend directamente.
-- Todas las solicitudes saldrán desde `http://localhost:4000/api/...`
+- Todas las solicitudes saldrán desde `http://localhost:4000/...`
 - Si se cambia la ruta del backend — solo se actualiza `CATALOG_API_URL`.
 
 ---
